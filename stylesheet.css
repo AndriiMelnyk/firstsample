@@ -1,0 +1,480 @@
+body{margin: 0;}
+.wrapper{
+	max-width: 100%;
+	background-color: #f7fcff;
+}
+.header{
+	    height: 60px;
+	    width: 100%;
+	    background-color: #f7fcff;
+	    position: fixed;
+	    padding-top: 10px;
+	    }
+	    .header-active{padding-top: 0;}
+	    .iconmenu{display: none;height: 30px;width: 15px;padding-left: 5px;cursor: pointer; right: 26px;padding-top: 20px;position: absolute;z-index: 999;}
+	    .divide{display: block;height: 2px;margin: 3px 0;background-color: black;}
+.headercontainer{
+	width: 68%;
+	background-color: #f7fcff;
+	margin: auto;
+}
+
+.rightcontainerdiv{
+	width: 320px;
+	background-color: #f7fcff;
+	float: right;
+}
+.signindiv{
+	width: 100px;
+	height: 35px;
+	background-color: #008AE6;
+	float: right;
+	border-radius: 20px;
+	color: white;
+	margin-right: 10px;
+	margin-top: 12px;
+}
+.signinp{
+	text-align: center;
+	margin: 0;
+	padding-top: 10px;
+	font-size: 14px;
+}
+	
+.labelone{
+	float: left;
+	display: inline;
+	padding-left: 20px;
+	color: gray;
+	margin: 0;
+	padding-top: 20px;
+}
+.logo{
+	color: gray;
+	font-family: verdana;
+	float: left;
+	z-index: 999;
+	position: absolute;
+}
+.firstimg{ 
+	width:100%;
+}
+.firstimgdiv{
+	width: 100%;
+	height: 570px;
+	background-color: red;
+	text-align: center;
+	background-image: url(mountains.jpg)
+}
+.ourmission{margin: 0;padding-top:400px;color:white;font-family:Arial;}
+.ourmissioncontent{color: white;font-family: Verdana;}
+.aboutdiv{
+	width: 100%;
+	background-color: white;
+	padding-bottom: 20px;
+	
+	
+}
+.about{
+	margin: 0;
+	padding-top: 70px;
+	color: #0abbe4;
+	
+}
+.aboutdiv{
+	font-family: arial;
+	text-align: center;
+}
+.aboutcontent{
+	text-align: center;
+	font-family: Verdana;
+	
+}
+.bluediv{
+	width: 100%;
+	height: 690px;
+	background-color: #0dbfdd ;
+}
+.team{
+	padding-top: 70px;
+	text-align: center;
+	margin: 0;
+	color: white;
+}
+.teamallimg{
+	background-color: #0dbfdd;
+	width: 580px;
+	height: 360px;
+	margin: auto;
+	margin-top: 50px;
+}
+.twoimg{
+	width: 350px;
+	background-color: #0dbfdd;
+	height: 300px;
+	float: left;
+	margin: auto;
+}
+.johnonediv{
+	background-color: #0dbfdd;
+	height: 235px;
+	width: 158px;
+	float: left;
+	margin-top: 35px;
+}
+.johntwodiv{
+	background-color: #0dbfdd;
+	height: 235px;
+	width: 160px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 35px;
+}
+.johnthreediv{
+	background-color: #0dbfdd;
+	height: 235px;
+	width: 160px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 35px;
+}
+.johndoeone{
+	margin-top:5px;
+	padding-left: 40px;
+	color: white;
+	margin: 0;
+	
+}
+.johntwo{
+	margin-top: 6px;
+}
+
+#one{
+	margin-top: 10px;
+}
+.founder{
+	padding-left: 25px;
+	color: white;
+	font-family:Comic Sans Ms;
+	margin: 0;
+}
+.cofounder{
+	margin: 0;
+	color: white;
+	padding-left: 35px;
+	font-family:Comic Sans Ms
+}
+.investor{
+	margin: 0;
+	color:white;
+	padding-left: 50px;
+	font-family:Comic Sans Ms
+
+}
+.workwithus{
+	width: 200px;
+	height: 50px;
+	clear: both;
+	border-radius: 20px;
+	border:1px solid white;
+	margin: auto;
+
+}
+.work{
+	padding-left: 50px;
+	color: white;
+	font-size: 14px;
+}
+#map{
+	background-color: gray;
+	width: 100%;
+	height: 450px;
+	
+}
+.lastdiv{
+	width: 100%;
+	height: 125px;
+	background-color: #484848 ;
+}
+.firstlastdiv{
+	width:65%;
+	height: 70px;
+	background-color: #484848;
+    border-bottom: 1px solid gray;
+    background-color: #484848;
+    margin: auto;
+}
+.lastthreeimg{
+	margin-top: 15px;
+}
+
+#hfaq{
+	padding-left: 40px;
+}
+#hworkwithus{
+	padding-left: 30px;
+}
+.aboutsmalldivcontainer{
+	width: 385px;
+	background-color: #484848;
+	height: 60px;
+	float: left;
+}
+.aboutsmalldiv{
+	width: 100px;
+	height: 40px;
+	background-color: #484848;
+	float: left;
+	padding-top: 20px;
+}
+.smallfaq{
+	width: 100px;
+	height: 40px;
+	background-color: #484848;
+	float: left;
+	padding-top: 20px;
+}
+button{border-radius: 20px;
+    background-color: #0dbfdd;
+    margin: auto;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 210px;
+    margin: auto;
+    display: block;
+}
+.smallworkwith{
+	width: 180px;
+	height: 40px;
+	background-color: #484848;
+	float: left;
+	padding-top: 20px;
+}
+
+.aboutlastdiv{
+	display: inline;
+	color: white;
+	padding-left: 30px;
+	}
+.containerlastthreeimg{
+		width: 150px;
+		height: 60px;
+		background-color: #484848;
+		float: right;
+}
+.messagediv{
+	background-color: #484848;
+	width: 40px;
+	height: 40px;
+	float: left;
+	border: 1px solid white;
+	border-radius: 50px;
+	text-align: center;
+	margin-top: 5px;
+}
+.twitterdiv{
+	background-color: #484848;
+	width: 40px;
+	height: 40px;
+	float: left;
+	border: 1px solid white;
+	border-radius: 50px;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.twitterimg{
+	margin-top: 13px;
+}
+.facebookimg{
+	margin-top: 10px;
+}
+
+.lastthreedivs{
+	width: 65%;
+	height: 50px;
+	background-color: #484848;
+	margin: auto;
+}
+.policy{
+	width: 140px;
+	height: 50px;
+	background-color: #484848;
+	float: right;
+}
+.terms{
+	width: 190px;
+	height: 50px;
+	background-color: #484848;
+	float: right;
+}
+.company{
+	width: 180px;
+	height: 50px;
+	background-color: #484848;
+	float: right;
+}
+.pcompany{
+	font-family: comic sans ms;
+	font-size: 14px;
+	padding-left: 25px;
+	border-left: 1px solid gray;
+	color: gray;
+}
+.pterms{
+	font-family: comic sans ms;
+	font-size: 14px;
+	padding-left: 20px;
+	color: gray;
+}
+.ppolicy{
+	font-family: comic sans ms;
+	font-size: 14px;
+	padding-left: 30px;
+	border-right: 1px solid gray;
+	color: gray;
+}
+.whitelink{
+	color: gray;
+}
+a.whitelink:hover{
+	color: #D3D3D3;
+}
+a{
+	text-decoration: none;
+}
+.signinlink{
+	color:white;
+
+}
+a.signinlink:hover{
+	color:#f0f0f0;
+}
+
+
+}
+.lorem{
+	color:#484848;
+}
+.teamlink{
+	color:white;
+}
+a.teamlink:hover{
+	color: #484848;
+}
+.faqlink{
+	color:white;
+}
+a.faqlink:hover{
+	color: #0ebfe9
+}
+.workwithuslink{
+	color:white; 
+}
+.mountainlink{
+	display: block;
+}
+div.signindiv:hover{background:#4DB8FF;
+ }
+button:hover{
+	background: #4DB8FF;
+}
+div.smallrightheaderdiv:hover{
+	background: #4DB8FF ;
+}
+
+@media screen and (max-width: 1500px) and (min-width:768px){
+	              .teamallimg{width: 540px;}
+	          }
+@media screen and (max-width: 860px) and (min-width: 480px){
+	.firstlastdiv {height: 140px;width: 100%;border-bottom: none;}
+	.containerlastthreeimg{float: none;clear:both;margin: auto; }
+	.aboutsmalldivcontainer{float: none;margin: auto;}
+	.company{float: none;margin: auto;width: 100%;}
+	.lastthreedivs{height: 150px;width: 100%}
+	.policy{float: none;margin: auto;width: 100%;}
+	.terms{float: none;margin: auto;width: 100%;}
+	.pcompany{margin: 0;text-align: center;border-left: none;}
+	.pterms{margin: 0;text-align: center;}
+	.ppolicy{margin: 0;text-align: center;border-right: none;}
+	.aboutsmalldiv{width: 85px;margin-left: 95px;}
+	.smallfaq{width: 70px;}
+	.smallworkwith{width: 135px;}
+	#hworkwithus{padding:0;}
+	#hfaq{padding-left:3px;}
+	.aboutlastdiv{padding: 0;}
+
+}
+	           
+	
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+	.johnthreediv{float: none;clear: both;margin: auto;}
+	.teamallimg{height: 580px;width: 400px;}
+	.twoimg{margin: auto;float: none;width: 320px;}
+	.bluediv{height: 795px;}
+	.johntwodiv{margin:0;margin-top: 35px;}
+	.ourmission{padding-top: 200px;}
+	.headercontainer{width: 95%;}
+}
+@media screen and (max-width: 480px){
+	
+	.twoimg{width: 235px;height: 470px;margin: auto;float: none;}
+	.teamallimg{height: 730px;width: 250px;}
+	.johntwodiv{margin: auto;float: none;}
+	.johnonediv{float: none;margin: auto;}
+	.bluediv{height: 950px;}
+	.johnthreediv{float: none;margin: auto;}
+	.rightcontainerdiv {
+		width: 100%;background-color: #f7fcff;
+		height: 200px;
+		top:-410px;
+		margin-top: 10px;
+		position: absolute;
+		-webkit-transition: top 1s ease-out 1s;
+		-moz-transition: top 1s ease-out 1s;
+		-o-transition:top 1s ease-out 1s;
+		transition: top 1s ease-out 1s;
+	}
+	.rightcontainerdiv.active{top:50px;}
+	.labelone{float: none;display: block;text-align: center;padding-left: 0;}
+	.signindiv{margin: auto;float: none;}
+	.logo{margin-left: 40px;}
+	.signinlink{display: block;margin-top: 20px;}
+
+
+
+
+
+	.firstlastdiv {height: 300px;width: 100%;border-bottom: none;}
+	.containerlastthreeimg{float: none;clear:both;margin: auto; }
+	.aboutsmalldivcontainer{float: none;margin: auto;height: 200px;width: 100%;}
+	.company{float: none;margin: auto;width: 100%;}
+	.lastthreedivs{height: 150px;width: 100%}
+	.policy{float: none;margin: auto;width: 100%;}
+	.terms{float: none;margin: auto;width: 100%;}
+	.pcompany{margin: 0;text-align: center;border-left: none;}
+	.pterms{margin: 0;text-align: center;}
+	.ppolicy{margin: 0;text-align: center;border-right: none;}
+	.smallworkwith{float: none;clear: both;margin: auto;}
+	.smallfaq{float: none;clear: both;margin: auto;}
+	.aboutsmalldiv{margin: auto;float: none;}
+	.aboutlastdiv{padding-left: 30px;}
+	.iconmenu{display: block;}
+	.headercontainer{width: 100%;}
+	.ourmission{padding-top: 250px;}
+
+
+
+}
+
+
+
+
+
+
+
+
+
